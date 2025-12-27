@@ -73,9 +73,16 @@ Son formatos de texto para el intercambio de datos.
 **SOAP (Simple Object Access Protocol)** es un protocolo estándar basado estrictamente en XML para intercambiar información estructurada. Es conocido por su robustez, seguridad (WS-Security) y transaccionalidad (ACID), pero es más pesado y complejo de implementar que REST. Utiliza un archivo WSDL para definir la estructura del servicio.
 
 **10. Explicar brevemente el estándar RESTful**  
-**REST (Representational State Transfer)** no es un protocolo, sino un estilo arquitectónico. Un servicio RESTful utiliza los verbos HTTP estándar (GET, POST, PUT, DELETE) para manipular recursos identificados por URLs. Es "stateless" (sin estado), suele usar JSON como formato de transporte y es más ligero y flexible que SOAP.
+**REST (Representational State Transfer)** no es un protocolo, sino un estilo arquitectónico. Un servicio RESTful utiliza los verbos HTTP estándar (GET, POST, PUT, DELETE) para manipular recursos identificados por URLs. Es "stateless" (sin estado), suele usar JSON como formato de transporte y es más ligero y flexible que SOAP.  
 
 **11. ¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**  
 Son los metadatos que el cliente envía al servidor para darle contexto sobre la petición (quién la envía, qué acepta recibir, credenciales, etc.).
 El key **Content-Type** es fundamental porque indica al servidor qué tipo de formato tienen los datos que se están enviando en el cuerpo del mensaje (body).
-* *Ejemplo:* `Content-Type: application/json` avisa al servidor que el body contiene un objeto JSON.
+* *Ejemplo:* `Content-Type: application/json` avisa al servidor que el body contiene un objeto JSON.  
+
+## EJERCICIO 4:
+### Realizar los siguientes módulos de Trailhead:
+https://www.salesforce.com/trailblazer/syl2zip2b0pbmidcc8
+
+## EJERCICIO 5:
+
