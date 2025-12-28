@@ -328,10 +328,9 @@ Sistema que integra finanzas, logística, compras, RRHH, etc.
 N. ¿Salesforce es un ERP?  
 No. Salesforce es un CRM, aunque puede integrarse con ERPs.  
 
-##EJERCICIO 7:
+## EJERCICIO 7:  
 **A.** Consultar tu ID haciendo un GET con POSTMAN a este WS:  
 https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json  
-
 <img width="760" height="398" alt="image" src="https://github.com/user-attachments/assets/d63d6ade-ebb9-4931-81b3-f5a3088ea73e" />  
 
 **B.** Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255 caracteres.
